@@ -1,0 +1,88 @@
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  display: block;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 6px 16px;
+}
+
+.nav-bar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-bar__list-item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-bar__list-item:hover {
+  background-color: #111;
+}
+
+.nav-bar__list-item.active {
+  background-color: #46a1f7;
+  padding: 6px 16px;
+}
+
+.main {
+  padding: 0 calc(50% - 340px);
+}
+
+.dummy-image {
+  height: 0;
+  padding-top: 56%;
+  background-color: #333;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.card > h2 {
+  margin-top: 0;
+}
+
+.person {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  background: #333;
+  border-radius: 50%;
+  margin-right: 2rem;
+  flex: 1 0 150px;
+}
+
+.person:nth-of-type(odd) .profile {
+  background: #999;
+}
+
+p.lead {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=maps/main.css.map */

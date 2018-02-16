@@ -13,4 +13,4 @@ IndexController.prototype.registerServiceWorker = function() {
 }
 
 
-// new IndexController();
+new IndexController();

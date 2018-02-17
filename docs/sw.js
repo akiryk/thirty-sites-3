@@ -1,4 +1,4 @@
-const staticCacheName = 'ak-cache-v11';
+const staticCacheName = 'ak-cache-v12';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
